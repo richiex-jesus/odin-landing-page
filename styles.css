@@ -48,6 +48,7 @@ body {
 }
 
 .description-left {
+    width: 500px;
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
@@ -89,7 +90,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 400px;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
 }
 
 .information-box {
@@ -195,6 +196,16 @@ img {
 .cta-button {
     display: flex;
     flex-grow: 1;
+    margin-left: 50px;
+}
+
+.sign-up {
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
 }
 
 .footer-box {
